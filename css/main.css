@@ -22,6 +22,23 @@ body {
   text-decoration: none;
 }
 
+.main .title {
+  color: var(--color-tertiary);
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.main .title:hover {
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  color: var(--color-accent);
+}
+
+.main .components__item {
+  color: var(--color-light);
+}
+
 body {
   margin: 4rem;
   background: -webkit-gradient(linear, left top, right bottom, from(var(--color-tertiary)), to(var(--color-secondary)));
@@ -30,7 +47,7 @@ body {
   height: 100vh;
 }
 
-.components {
+.main {
   height: 85%;
   background: var(--color-dark);
   -webkit-box-shadow: 0.3rem 0.8rem 2.5rem var(--color-dark);
@@ -50,13 +67,28 @@ body {
           align-items: center;
 }
 
+.main .title {
+  text-transform: uppercase;
+}
+
+.components {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .components__item, .components__item:visited, .components__item:link {
   margin: 2.3rem;
   padding: 0.8rem 3rem;
   background: var(--color-primary);
   border-radius: 0.7rem;
   text-decoration: none;
-  color: var(--color-light);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }

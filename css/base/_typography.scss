@@ -4,3 +4,22 @@ body {
   list-style: none;
   text-decoration: none;
 }
+
+.main {
+  .title {
+    color: var(--color-tertiary);
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: skewX(-20deg);
+      color: var(--color-accent);
+    }
+  }
+
+  .components {
+    &__item {
+      color: var(--color-light);
+    }
+  }
+}
