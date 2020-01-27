@@ -1,0 +1,10 @@
+body {
+  margin: 2rem;
+  background: linear-gradient(
+    to bottom right,
+    var(--color-tertiary),
+    var(--color-secondary)
+  );
+  height: 100vh;
+  overflow: hidden;
+}
