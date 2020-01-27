@@ -1,3 +1,4 @@
+/////////////// Global Styling ///////////////
 body {
   margin: 4rem;
   background: linear-gradient(
@@ -17,10 +18,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  .title {
-    text-transform: uppercase;
-  }
 }
 
 .components {

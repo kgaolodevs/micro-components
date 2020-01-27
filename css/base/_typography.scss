@@ -1,3 +1,4 @@
+/////////////// Global Styling ///////////////
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: #f4f4f4;
@@ -6,10 +7,14 @@ body {
 }
 
 .main {
-  .title {
+  .title,
+  .title__link:link,
+  .title__link:visited {
     color: var(--color-tertiary);
     cursor: pointer;
     transition: all 0.5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
 
     &:hover {
       transform: skewX(-20deg);

@@ -22,14 +22,20 @@ body {
   text-decoration: none;
 }
 
-.main .title {
+.main .title,
+.main .title__link:link,
+.main .title__link:visited {
   color: var(--color-tertiary);
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-.main .title:hover {
+.main .title:hover,
+.main .title__link:link:hover,
+.main .title__link:visited:hover {
   -webkit-transform: skewX(-20deg);
           transform: skewX(-20deg);
   color: var(--color-accent);
@@ -67,10 +73,6 @@ body {
           align-items: center;
 }
 
-.main .title {
-  text-transform: uppercase;
-}
-
 .components {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,5 +101,32 @@ body {
   -webkit-box-shadow: 0 0.2rem 0.8rem var(--color-light);
           box-shadow: 0 0.2rem 0.8rem var(--color-light);
   background: indigo;
+}
+
+.main {
+  position: relative;
+}
+
+.main .go-home {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.main .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.main .buttons .btn {
+  margin: 2rem 2rem;
+  background: var(--color-secondary);
+  padding: 1.1rem 4rem;
+  border-radius: 50rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

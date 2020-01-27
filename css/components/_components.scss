@@ -1,3 +1,4 @@
+/////////////// Global Styling ///////////////
 .components {
   &__item,
   &__item:visited,
@@ -14,6 +15,34 @@
       transform: scale(1.18);
       box-shadow: 0 0.2rem 0.8rem var(--color-light);
       background: indigo;
+    }
+  }
+}
+
+/////////////// Buttons ///////////////
+.main {
+  position: relative;
+  .title {
+    // outline: indigo 2px solid;
+  }
+
+  .go-home {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
+    .btn {
+      margin: 2rem 2rem;
+      background: var(--color-secondary);
+      padding: 1.1rem 4rem;
+      border-radius: 50rem;
+      cursor: pointer;
     }
   }
 }
