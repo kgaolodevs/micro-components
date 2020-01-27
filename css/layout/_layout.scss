@@ -1,10 +1,25 @@
 body {
-  margin: 2rem;
+  margin: 4rem;
   background: linear-gradient(
     to bottom right,
     var(--color-tertiary),
     var(--color-secondary)
   );
+  background-size: cover;
   height: 100vh;
-  overflow: hidden;
+}
+
+.nav {
+  height: 85%;
+  background: var(--color-dark);
+  box-shadow: 0.3rem 0.8rem 2.5rem var(--color-dark);
+
+  &__list {
+    // outline: crimson 1px solid;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

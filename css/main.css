@@ -23,10 +23,34 @@ body {
 }
 
 body {
-  margin: 2rem;
+  margin: 4rem;
   background: -webkit-gradient(linear, left top, right bottom, from(var(--color-tertiary)), to(var(--color-secondary)));
   background: linear-gradient(to bottom right, var(--color-tertiary), var(--color-secondary));
+  background-size: cover;
   height: 100vh;
-  overflow: hidden;
+}
+
+.nav {
+  height: 85%;
+  background: var(--color-dark);
+  -webkit-box-shadow: 0.3rem 0.8rem 2.5rem var(--color-dark);
+          box-shadow: 0.3rem 0.8rem 2.5rem var(--color-dark);
+}
+
+.nav__list {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
