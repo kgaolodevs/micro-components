@@ -9,6 +9,7 @@
   --color-light: #f4f4f4;
   --color-dark: #25242a;
   --color-dark-2: #36353a;
+  --color-dark-3: #161616;
 }
 
 * {
@@ -126,6 +127,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 3rem;
 }
 
@@ -150,6 +154,18 @@ body {
 .main .buttons .btn__1:hover {
   -webkit-animation: levitate 1s infinite ease-in;
           animation: levitate 1s infinite ease-in;
+}
+
+.main .buttons .btn__2 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 1s ease 0.5s;
+  transition: all 1s ease 0.5s;
+}
+
+.main .buttons .btn__2:hover {
+  -webkit-animation: morph 0.6s ease forwards;
+          animation: morph 0.6s ease forwards;
 }
 
 @-webkit-keyframes levitate {
@@ -191,6 +207,58 @@ body {
             transform: translateY(0);
     -webkit-box-shadow: none;
             box-shadow: none;
+  }
+}
+
+@-webkit-keyframes morph {
+  0% {
+    border-radius: 50rem;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    border-radius: 10rem;
+  }
+  50% {
+    -webkit-transform: translateY(-0.4);
+            transform: translateY(-0.4);
+    border-radius: 25rem;
+  }
+  100% {
+    border-radius: 0;
+    -webkit-transform: translateY(-0.85rem) skewX(-10deg);
+            transform: translateY(-0.85rem) skewX(-10deg);
+    background: var(--color-primary);
+    color: var(--color-dark);
+    font-weight: bold;
+    -webkit-box-shadow: 0 1rem 2rem var(--color-dark-3);
+            box-shadow: 0 1rem 2rem var(--color-dark-3);
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 50rem;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25% {
+    border-radius: 10rem;
+  }
+  50% {
+    -webkit-transform: translateY(-0.4);
+            transform: translateY(-0.4);
+    border-radius: 25rem;
+  }
+  100% {
+    border-radius: 0;
+    -webkit-transform: translateY(-0.85rem) skewX(-10deg);
+            transform: translateY(-0.85rem) skewX(-10deg);
+    background: var(--color-primary);
+    color: var(--color-dark);
+    font-weight: bold;
+    -webkit-box-shadow: 0 1rem 2rem var(--color-dark-3);
+            box-shadow: 0 1rem 2rem var(--color-dark-3);
   }
 }
 /*# sourceMappingURL=main.css.map */

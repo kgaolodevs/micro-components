@@ -36,14 +36,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     margin-top: 3rem;
 
     .btn {
-      margin: 2rem 2rem;
-      background: var(--color-secondary);
-      padding: 1.1rem 4rem;
-      border-radius: 50rem;
-      cursor: pointer;
+      @include btn;
 
       &__1 {
         border-radius: 0;
@@ -55,6 +52,17 @@
 
         &:hover {
           animation: levitate 1s infinite ease-in;
+        }
+      }
+
+      &__2 {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+
+        transition: all 1s ease 0.5s;
+
+        &:hover {
+          animation: morph 0.6s ease forwards;
         }
       }
     }
@@ -75,6 +83,31 @@
     100% {
       transform: translateY(0);
       box-shadow: none;
+    }
+  }
+
+  @keyframes morph {
+    0% {
+      border-radius: 50rem;
+      transform: translateY(0);
+    }
+
+    25% {
+      border-radius: 10rem;
+    }
+
+    50% {
+      transform: translateY(-0.4);
+      border-radius: 25rem;
+    }
+
+    100% {
+      border-radius: 0;
+      transform: translateY(-0.85rem) skewX(-10deg);
+      background: var(--color-primary);
+      color: var(--color-dark);
+      font-weight: bold;
+      box-shadow: 0 1rem 2rem var(--color-dark-3);
     }
   }
 }
