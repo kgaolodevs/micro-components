@@ -64,14 +64,17 @@
   @keyframes levitate {
     0% {
       transform: translateY(0) scale(1);
+      box-shadow: none;
     }
 
     50% {
       transform: translateY(-1.5rem) scale(1.05);
+      box-shadow: 0 0.4rem 2rem var(--color-light);
     }
 
     100% {
       transform: translateY(0);
+      box-shadow: none;
     }
   }
 }
