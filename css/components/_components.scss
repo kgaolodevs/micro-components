@@ -65,6 +65,34 @@
           animation: morph 0.6s ease forwards;
         }
       }
+
+      &__3 {
+        text-transform: uppercase;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-weight: lighter;
+        font-size: 1.2rem;
+        font-style: italic;
+        color: var(--color-dark-3);
+        background: linear-gradient(
+          to bottom,
+          var(--color-secondary),
+          var(--color-tertiary)
+        );
+        border-radius: 1rem;
+        transition: all ease-in-out 0.5s;
+
+        &:hover {
+          background: linear-gradient(
+            to bottom,
+            var(--color-accent-2),
+            var(--color-accent-3)
+          );
+
+          animation: floating 0.5s ease-out forwards;
+          color: var(--color-accent);
+          border-radius: 0;
+        }
+      }
     }
   }
 
@@ -108,6 +136,13 @@
       color: var(--color-dark);
       font-weight: bold;
       box-shadow: 0 1rem 2rem var(--color-dark-3);
+    }
+  }
+
+  @keyframes floating {
+    100% {
+      transform: scale(1.1) translateY(1.2rem);
+      box-shadow: 0 1rem 1.5rem var(--color-dark-3);
     }
   }
 }

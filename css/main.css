@@ -168,6 +168,29 @@ body {
           animation: morph 0.6s ease forwards;
 }
 
+.main .buttons .btn__3 {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--color-dark-3);
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-secondary)), to(var(--color-tertiary)));
+  background: linear-gradient(to bottom, var(--color-secondary), var(--color-tertiary));
+  border-radius: 1rem;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.main .buttons .btn__3:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-accent-2)), to(var(--color-accent-3)));
+  background: linear-gradient(to bottom, var(--color-accent-2), var(--color-accent-3));
+  -webkit-animation: floating 0.5s ease-out forwards;
+          animation: floating 0.5s ease-out forwards;
+  color: var(--color-accent);
+  border-radius: 0;
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);
@@ -259,6 +282,24 @@ body {
     font-weight: bold;
     -webkit-box-shadow: 0 1rem 2rem var(--color-dark-3);
             box-shadow: 0 1rem 2rem var(--color-dark-3);
+  }
+}
+
+@-webkit-keyframes floating {
+  100% {
+    -webkit-transform: scale(1.1) translateY(1.2rem);
+            transform: scale(1.1) translateY(1.2rem);
+    -webkit-box-shadow: 0 1rem 1.5rem var(--color-dark-3);
+            box-shadow: 0 1rem 1.5rem var(--color-dark-3);
+  }
+}
+
+@keyframes floating {
+  100% {
+    -webkit-transform: scale(1.1) translateY(1.2rem);
+            transform: scale(1.1) translateY(1.2rem);
+    -webkit-box-shadow: 0 1rem 1.5rem var(--color-dark-3);
+            box-shadow: 0 1rem 1.5rem var(--color-dark-3);
   }
 }
 /*# sourceMappingURL=main.css.map */
