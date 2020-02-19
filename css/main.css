@@ -191,6 +191,15 @@ body {
   border-radius: 0;
 }
 
+.main .buttons .btn__4 {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  color: var(--color-dark-2);
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-primary)), to(var(--color-secondary)));
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);
@@ -300,6 +309,36 @@ body {
             transform: scale(1.1) translateY(1.2rem);
     -webkit-box-shadow: 0 1rem 1.5rem var(--color-dark-3);
             box-shadow: 0 1rem 1.5rem var(--color-dark-3);
+  }
+}
+
+@-webkit-keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
 }
 /*# sourceMappingURL=main.css.map */
