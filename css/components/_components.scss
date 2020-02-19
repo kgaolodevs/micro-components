@@ -104,6 +104,11 @@
           var(--color-primary),
           var(--color-secondary)
         );
+        transition: all 1s ease-out;
+
+        &:hover {
+          animation: grow 1s forwards ease;
+        }
       }
     }
   }
@@ -160,15 +165,17 @@
 
   @keyframes grow {
     0% {
-      transform: scale(0);
+      transform: scale(1);
     }
 
     50% {
       transform: scale(1.5);
+      box-shadow: 0rem 0.5rem 1rem var(--color-dark-3);
     }
 
     100% {
-      transform: scale(0);
+      transform: scale(2);
+      box-shadow: 0rem 0.5rem 1.5rem var(--color-dark-3);
     }
   }
 }
