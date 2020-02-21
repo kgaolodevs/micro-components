@@ -110,6 +110,16 @@
           animation: grow 1s forwards ease;
         }
       }
+
+      &__5 {
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          animation: slide 0.5s ease-in-out forwards;
+          background: linear-gradient(to right, #f4f4f4, #fff);
+          color: var(--color-dark-3);
+          text-transform: uppercase;
+        }
+      }
     }
   }
 

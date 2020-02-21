@@ -207,6 +207,20 @@ body {
           animation: grow 1s forwards ease;
 }
 
+.main .buttons .btn__5 {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main .buttons .btn__5:hover {
+  -webkit-animation: slide 0.5s ease-in-out forwards;
+          animation: slide 0.5s ease-in-out forwards;
+  background: -webkit-gradient(linear, left top, right top, from(#f4f4f4), to(#fff));
+  background: linear-gradient(to right, #f4f4f4, #fff);
+  color: var(--color-dark-3);
+  text-transform: uppercase;
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);
@@ -354,6 +368,28 @@ body {
             transform: scale(2);
     -webkit-box-shadow: 0rem 0.5rem 1.5rem var(--color-dark-3);
             box-shadow: 0rem 0.5rem 1.5rem var(--color-dark-3);
+  }
+}
+
+@-webkit-keyframes slide {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(5rem);
+            transform: translateX(5rem);
+  }
+}
+
+@keyframes slide {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(5rem);
+            transform: translateX(5rem);
   }
 }
 /*# sourceMappingURL=main.css.map */
