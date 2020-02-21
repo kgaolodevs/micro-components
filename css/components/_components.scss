@@ -178,4 +178,14 @@
       box-shadow: 0rem 0.5rem 1.5rem var(--color-dark-3);
     }
   }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(5rem);
+    }
+  }
 }
