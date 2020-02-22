@@ -123,6 +123,28 @@
     }
   }
 
+  .nav {
+    // outline: 2px solid indigo;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    width: 60rem;
+    background: indigo;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav__1 {
+      &--logo {
+        margin-right: 25rem;
+        font-family: "Druk", "Franklin Gothic Medium", "Arial Narrow", Arial,
+          sans-serif;
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-style: italic;
+      }
+    }
+  }
+
   // Button-Animations
   @keyframes levitate {
     0% {

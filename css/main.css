@@ -221,6 +221,30 @@ body {
   text-transform: uppercase;
 }
 
+.main .nav {
+  margin: 2rem;
+  padding: 1rem 2rem;
+  width: 60rem;
+  background: indigo;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .nav .nav__1--logo {
+  margin-right: 25rem;
+  font-family: "Druk", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);
