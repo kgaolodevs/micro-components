@@ -221,10 +221,14 @@ body {
   text-transform: uppercase;
 }
 
-.main .nav {
+.main .navbars {
+  width: 80%;
+}
+
+.main .navbars .nav {
   margin: 2rem;
   padding: 1rem 2rem;
-  width: 60rem;
+  width: 100%;
   background: indigo;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,17 +236,34 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-radius: 5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.main .nav .nav__1--logo {
-  margin-right: 25rem;
+.main .navbars .nav .nav__1--logo {
   font-family: "Druk", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   font-style: italic;
+}
+
+.main .navbars .nav .nav__1--logo:hover {
+  cursor: pointer;
+}
+
+.main .navbars .nav .nav__1--item {
+  padding: 0.5rem;
+  border-radius: 15rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.main .navbars .nav .nav__1--item:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  cursor: pointer;
 }
 
 @-webkit-keyframes levitate {

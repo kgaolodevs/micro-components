@@ -123,24 +123,41 @@
     }
   }
 
-  .nav {
-    // outline: 2px solid indigo;
-    margin: 2rem;
-    padding: 1rem 2rem;
-    width: 60rem;
-    background: indigo;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .navbars {
+    width: 80%;
+    .nav {
+      // outline: 2px solid crimson;
+      margin: 2rem;
+      padding: 1rem 2rem;
+      width: 100%;
+      background: indigo;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 5rem;
+      align-items: center;
 
-    .nav__1 {
-      &--logo {
-        margin-right: 25rem;
-        font-family: "Druk", "Franklin Gothic Medium", "Arial Narrow", Arial,
-          sans-serif;
-        font-size: 4rem;
-        text-transform: uppercase;
-        font-style: italic;
+      .nav__1 {
+        &--logo {
+          font-family: "Druk", "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+          font-size: 2rem;
+          text-transform: uppercase;
+          font-style: italic;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        &--item {
+          padding: 0.5rem;
+          border-radius: 15rem;
+          transition: all 0.2s;
+          &:hover {
+            background-color: var(--color-light);
+            color: var(--color-dark);
+            cursor: pointer;
+          }
+        }
       }
     }
   }
