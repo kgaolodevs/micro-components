@@ -133,10 +133,10 @@
       background: indigo;
       display: flex;
       justify-content: space-between;
-      border-radius: 5rem;
       align-items: center;
 
-      .nav__1 {
+      &__1 {
+        border-radius: 5rem;
         &--logo {
           font-family: "Druk", "Franklin Gothic Medium", "Arial Narrow", Arial,
             sans-serif;
@@ -158,6 +158,10 @@
             cursor: pointer;
           }
         }
+      }
+
+      &__2 {
+        justify-content: space-around;
       }
     }
   }

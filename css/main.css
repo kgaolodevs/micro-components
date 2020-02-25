@@ -236,34 +236,42 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-radius: 5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.main .navbars .nav .nav__1--logo {
+.main .navbars .nav__1 {
+  border-radius: 5rem;
+}
+
+.main .navbars .nav__1--logo {
   font-family: "Druk", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2rem;
   text-transform: uppercase;
   font-style: italic;
 }
 
-.main .navbars .nav .nav__1--logo:hover {
+.main .navbars .nav__1--logo:hover {
   cursor: pointer;
 }
 
-.main .navbars .nav .nav__1--item {
+.main .navbars .nav__1--item {
   padding: 0.5rem;
   border-radius: 15rem;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
-.main .navbars .nav .nav__1--item:hover {
+.main .navbars .nav__1--item:hover {
   background-color: var(--color-light);
   color: var(--color-dark);
   cursor: pointer;
+}
+
+.main .navbars .nav__2 {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 @-webkit-keyframes levitate {
