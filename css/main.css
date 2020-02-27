@@ -7,6 +7,7 @@
   --color-accent-3: #ffcc00;
   --color-accent-4: #fddb3a;
   --color-light: #f4f4f4;
+  --color-light-2: #adadad;
   --color-dark: #25242a;
   --color-dark-2: #36353a;
   --color-dark-3: #161616;
@@ -340,6 +341,42 @@ body {
   color: var(--color-accent);
   -webkit-transform: translateY(-0.5rem);
           transform: translateY(-0.5rem);
+}
+
+.main .navbars .nav__4 {
+  background-color: var(--color-accent-2);
+  color: var(--color-dark-3);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+}
+
+.main .navbars .nav__4--logo {
+  font-size: 1.35rem;
+  font-family: "Druk", Arial, Helvetica, sans-serif;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.main .navbars .nav__4--logo:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: var(--color-dark-2);
+}
+
+.main .navbars .nav__4--item {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.main .navbars .nav__4--item:hover {
+  -webkit-transform: translateX(0.6rem);
+          transform: translateX(0.6rem);
+  cursor: pointer;
+  color: var(--color-light-2);
 }
 
 @-webkit-keyframes levitate {

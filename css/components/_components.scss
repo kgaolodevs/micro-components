@@ -217,6 +217,36 @@
           }
         }
       }
+
+      &__4 {
+        background-color: var(--color-accent-2);
+        color: var(--color-dark-3);
+        font-weight: bold;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        border-radius: 0.5rem;
+
+        &--logo {
+          font-size: 1.35rem;
+          font-family: "Druk", Arial, Helvetica, sans-serif;
+          transition: all 0.35s ease-in-out;
+          &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            color: var(--color-dark-2);
+          }
+        }
+
+        &--item {
+          transition: all 0.25s ease-in-out;
+          &:hover {
+            transform: translateX(0.6rem);
+            cursor: pointer;
+            color: var(--color-light-2);
+          }
+        }
+      }
     }
   }
 
