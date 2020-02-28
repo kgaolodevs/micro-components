@@ -379,6 +379,18 @@ body {
   color: var(--color-light-2);
 }
 
+.main .navbars .nav__5 {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main .navbars .nav__5--logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);

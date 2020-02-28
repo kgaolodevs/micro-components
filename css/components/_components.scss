@@ -247,6 +247,18 @@
           }
         }
       }
+
+      &__5 {
+        background-color: var(--color-light);
+        color: var(--color-dark);
+        font-family: Georgia, "Times New Roman", Times, serif;
+
+        &--logo {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 1.5rem;
+        }
+      }
     }
   }
 
