@@ -404,6 +404,7 @@ body {
   cursor: pointer;
   -webkit-transform: translateY(-0.3rem);
           transform: translateY(-0.3rem);
+  color: var(--color-dark-2);
 }
 
 @-webkit-keyframes levitate {
