@@ -263,6 +263,7 @@
         }
 
         &--item {
+          transition: all 0.3s ease-in-out;
           &:hover {
             cursor: pointer;
             transform: translateY(-0.3rem);

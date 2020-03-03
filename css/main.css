@@ -395,6 +395,11 @@ body {
   cursor: pointer;
 }
 
+.main .navbars .nav__5--item {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .main .navbars .nav__5--item:hover {
   cursor: pointer;
   -webkit-transform: translateY(-0.3rem);
