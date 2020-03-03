@@ -257,6 +257,9 @@
           text-transform: uppercase;
           font-weight: lighter;
           font-size: 1.5rem;
+          &:hover {
+            cursor: pointer;
+          }
         }
 
         &--item {
