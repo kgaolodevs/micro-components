@@ -391,6 +391,10 @@ body {
   font-size: 1.5rem;
 }
 
+.main .navbars .nav__5--item:hover {
+  cursor: pointer;
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);
