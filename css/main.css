@@ -397,6 +397,8 @@ body {
 
 .main .navbars .nav__5--item:hover {
   cursor: pointer;
+  -webkit-transform: translateY(-0.3rem);
+          transform: translateY(-0.3rem);
 }
 
 @-webkit-keyframes levitate {

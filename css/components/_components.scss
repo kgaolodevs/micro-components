@@ -265,6 +265,7 @@
         &--item {
           &:hover {
             cursor: pointer;
+            transform: translateY(-0.3rem);
           }
         }
       }
