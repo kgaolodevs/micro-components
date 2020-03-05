@@ -274,6 +274,14 @@
     }
   }
 
+  .cards {
+    border: solid crimson 1px;
+    display: flex;
+
+    &--1 {
+    }
+  }
+
   // Button-Animations
   @keyframes levitate {
     0% {

@@ -407,6 +407,13 @@ body {
   color: var(--color-dark-2);
 }
 
+.main .cards {
+  border: solid crimson 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);
