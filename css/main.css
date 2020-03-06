@@ -448,9 +448,9 @@ body {
 }
 
 .main .cards .card--1__title {
-  margin-bottom: 0.5rem;
   color: var(--color-dark);
   text-transform: uppercase;
+  font-family: "Druk", Arial, Helvetica, sans-serif;
 }
 
 .main .cards .card--1__img {
@@ -463,6 +463,20 @@ body {
 .main .cards .card--1__para {
   color: var(--color-dark);
   text-align: center;
+}
+
+.main .cards .card--1__btn {
+  background: none;
+  border: none;
+  color: var(--color-light);
+  background-color: var(--color-dark-3);
+  padding: 0.3rem;
+  width: 5rem;
+  border-radius: 0.4rem;
+}
+
+.main .cards .card--1__btn:hover {
+  cursor: pointer;
 }
 
 @-webkit-keyframes levitate {

@@ -297,9 +297,10 @@
       }
 
       &__title {
-        margin-bottom: 0.5rem;
+        // margin-bottom: 0.5rem;
         color: var(--color-dark);
         text-transform: uppercase;
+        font-family: "Druk", Arial, Helvetica, sans-serif;
       }
 
       &__img {
@@ -312,6 +313,20 @@
       &__para {
         color: var(--color-dark);
         text-align: center;
+      }
+
+      &__btn {
+        background: none;
+        border: none;
+        color: var(--color-light);
+        background-color: var(--color-dark-3);
+        padding: 0.3rem;
+        width: 5rem;
+        border-radius: 0.4rem;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
