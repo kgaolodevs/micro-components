@@ -275,10 +275,12 @@
   }
 
   .cards {
-    // border: solid crimson 1px;
+    border: solid crimson 1px;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 
-    .card--1 {
+    .card {
       width: 20rem;
       height: 20rem;
       display: flex;
@@ -295,7 +297,8 @@
         transform: scale(1.05);
         cursor: pointer;
       }
-
+    }
+    .card--1 {
       &__title {
         // margin-bottom: 0.5rem;
         color: var(--color-dark);

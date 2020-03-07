@@ -408,12 +408,17 @@ body {
 }
 
 .main .cards {
+  border: solid crimson 1px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.main .cards .card--1 {
+.main .cards .card {
   width: 20rem;
   height: 20rem;
   display: -webkit-box;
@@ -441,7 +446,7 @@ body {
   transition: all 0.5s ease;
 }
 
-.main .cards .card--1:hover {
+.main .cards .card:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   cursor: pointer;
