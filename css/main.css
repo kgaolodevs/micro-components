@@ -489,6 +489,7 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   background-color: var(--color-primary);
+  border-radius: 0;
 }
 
 .main .cards .card--2__title {
@@ -516,6 +517,7 @@ body {
   color: var(--color-dark);
   text-transform: uppercase;
   font-size: 0.7rem;
+  border-radius: 0;
 }
 
 @-webkit-keyframes levitate {

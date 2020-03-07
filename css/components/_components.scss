@@ -337,6 +337,7 @@
     .card--2 {
       align-items: flex-start;
       background-color: var(--color-primary);
+      border-radius: 0;
       &__title {
         color: var(--color-dark);
         text-transform: uppercase;
@@ -361,6 +362,7 @@
         color: var(--color-dark);
         text-transform: uppercase;
         font-size: 0.7rem;
+        border-radius: 0;
       }
     }
   }
