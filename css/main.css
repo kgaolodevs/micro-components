@@ -452,6 +452,20 @@ body {
   cursor: pointer;
 }
 
+.main .cards .btn {
+  background: none;
+  border: none;
+  color: var(--color-light);
+  background-color: var(--color-dark-3);
+  padding: 0.3rem;
+  width: 5rem;
+  border-radius: 0.4rem;
+}
+
+.main .cards .btn:hover {
+  cursor: pointer;
+}
+
 .main .cards .card--1__title {
   color: var(--color-dark);
   text-transform: uppercase;
@@ -470,18 +484,38 @@ body {
   text-align: center;
 }
 
-.main .cards .card--1__btn {
-  background: none;
-  border: none;
-  color: var(--color-light);
-  background-color: var(--color-dark-3);
-  padding: 0.3rem;
-  width: 5rem;
-  border-radius: 0.4rem;
+.main .cards .card--2 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: var(--color-primary);
 }
 
-.main .cards .card--1__btn:hover {
-  cursor: pointer;
+.main .cards .card--2__title {
+  color: var(--color-dark);
+  text-transform: uppercase;
+  font-family: "Bebas Regular", "Arial Narrow", Arial, sans-serif;
+}
+
+.main .cards .card--2__img {
+  width: 100%;
+  height: 11rem;
+  content: url(/assets/img/card2-img.jpg);
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0rem 0.2rem 1rem var(--color-dark-2);
+          box-shadow: 0rem 0.2rem 1rem var(--color-dark-2);
+}
+
+.main .cards .card--2__para {
+  color: var(--color-dark);
+  text-align: left;
+}
+
+.main .cards .card--2__btn {
+  background-color: var(--color-accent-3);
+  color: var(--color-dark);
+  text-transform: uppercase;
+  font-size: 0.7rem;
 }
 
 @-webkit-keyframes levitate {
