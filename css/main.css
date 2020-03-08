@@ -525,7 +525,7 @@ body {
       -ms-flex-align: end;
           align-items: flex-end;
   background-color: var(--color-primary);
-  border-radius: 0;
+  border-radius: 2rem;
 }
 
 .main .cards .card--3__title {
