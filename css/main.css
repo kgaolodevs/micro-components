@@ -589,6 +589,10 @@ body {
   font-family: "Coolvetica", "Arial Narrow", Arial, sans-serif;
 }
 
+.main .forms .form__1 {
+  outline: solid crimson 1px;
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);

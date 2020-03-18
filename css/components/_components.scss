@@ -430,6 +430,14 @@
     }
   }
 
+  .forms {
+    .form {
+      &__1 {
+        outline: solid crimson 1px;
+      }
+    }
+  }
+
   // Button-Animations
   @keyframes levitate {
     0% {
