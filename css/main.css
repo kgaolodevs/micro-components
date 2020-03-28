@@ -595,6 +595,7 @@ body {
 
 .main .forms .form__1--img {
   width: 20rem;
+  border-radius: 50%;
 }
 
 @-webkit-keyframes levitate {
