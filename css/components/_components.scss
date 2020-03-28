@@ -436,6 +436,9 @@
         outline: solid crimson 2px;
         width: 20rem;
         height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         &--img {
           width: 5rem;
