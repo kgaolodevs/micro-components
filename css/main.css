@@ -591,6 +591,8 @@ body {
 
 .main .forms .form__1 {
   outline: solid crimson 2px;
+  width: 20rem;
+  height: 20rem;
 }
 
 .main .forms .form__1--img {
