@@ -590,7 +590,6 @@ body {
 }
 
 .main .forms .form__1 {
-  outline: solid crimson 2px;
   width: 20rem;
   height: 20rem;
   display: -webkit-box;
@@ -603,6 +602,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.5rem;
+  background-color: var(--color-light);
 }
 
 .main .forms .form__1--img {
