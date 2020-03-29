@@ -602,6 +602,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 2rem;
 }
 
 .main .forms .form__1--img {
