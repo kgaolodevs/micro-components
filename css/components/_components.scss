@@ -454,6 +454,11 @@
         &--name {
           color: var(--color-dark-3);
         }
+
+        &--input {
+          border-radius: 0.5rem;
+          border: var(--color-dark) 0.4px solid;
+        }
       }
     }
   }
