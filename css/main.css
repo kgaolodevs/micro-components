@@ -113,6 +113,10 @@ body {
   position: relative;
 }
 
+.main .title {
+  margin: 2rem;
+}
+
 .main .go-home {
   position: absolute;
   top: 2rem;
