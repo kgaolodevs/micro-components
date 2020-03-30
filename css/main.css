@@ -618,6 +618,7 @@ body {
   width: 5rem;
   border-radius: 50%;
   background-color: var(--color-dark);
+  margin: 1rem;
 }
 
 .main .forms .form__1--name {
