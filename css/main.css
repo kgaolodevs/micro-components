@@ -605,6 +605,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 1.5rem;
   background-color: var(--color-light);
   border-radius: 1.2rem;
@@ -614,6 +618,10 @@ body {
   width: 5rem;
   border-radius: 50%;
   background-color: var(--color-dark);
+}
+
+.main .forms .form__1--name {
+  color: var(--color-dark-3);
 }
 
 @-webkit-keyframes levitate {
