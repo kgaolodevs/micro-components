@@ -463,6 +463,12 @@
           border-radius: 0.5rem;
           border: var(--color-dark) 0.4px solid;
         }
+
+        &--field {
+          display: flex;
+          flex-direction: column;
+          margin: 0.4rem;
+        }
       }
     }
   }
