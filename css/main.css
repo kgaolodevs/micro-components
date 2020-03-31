@@ -625,6 +625,10 @@ body {
   color: var(--color-dark-3);
 }
 
+.main .forms .form__1--email {
+  color: var(--color-dark-3);
+}
+
 .main .forms .form__1--input {
   border-radius: 0.5rem;
   border: var(--color-dark) 0.4px solid;
