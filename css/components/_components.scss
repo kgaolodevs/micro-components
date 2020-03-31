@@ -451,14 +451,6 @@
           margin: 1rem;
         }
 
-        &--name {
-          color: var(--color-dark-3);
-        }
-
-        &--email {
-          color: var(--color-dark-3);
-        }
-
         &--input {
           border-radius: 0.5rem;
           border: var(--color-dark) 0.4px solid;
@@ -467,7 +459,13 @@
         &--field {
           display: flex;
           flex-direction: column;
-          margin: 0.4rem;
+          margin: 1rem;
+          padding: 0.3rem;
+        }
+
+        &--text {
+          color: var(--color-dark-3);
+          font-size: 0.8rem;
         }
       }
     }

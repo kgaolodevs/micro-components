@@ -621,14 +621,6 @@ body {
   margin: 1rem;
 }
 
-.main .forms .form__1--name {
-  color: var(--color-dark-3);
-}
-
-.main .forms .form__1--email {
-  color: var(--color-dark-3);
-}
-
 .main .forms .form__1--input {
   border-radius: 0.5rem;
   border: var(--color-dark) 0.4px solid;
@@ -642,7 +634,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0.4rem;
+  margin: 1rem;
+  padding: 0.3rem;
+}
+
+.main .forms .form__1--text {
+  color: var(--color-dark-3);
+  font-size: 0.8rem;
 }
 
 @-webkit-keyframes levitate {
