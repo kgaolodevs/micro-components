@@ -474,9 +474,15 @@
         }
 
         &--button {
+          // stock style
           align-self: center;
           margin: 0.4rem;
-          width: 5rem;
+          width: 6rem;
+
+          border-radius: 1rem;
+          border: none;
+          background-color: crimson;
+          color: var(--color-light);
         }
       }
     }
