@@ -451,6 +451,11 @@
           margin: 1rem;
         }
 
+        .fields {
+          display: flex;
+          flex-direction: column;
+        }
+
         &--input {
           border-radius: 0.5rem;
           border: var(--color-dark) 0.4px solid;
@@ -459,13 +464,16 @@
         &--field {
           display: flex;
           flex-direction: column;
-          margin: 1rem;
+          margin: 0.3rem;
           padding: 0.3rem;
         }
 
         &--text {
           color: var(--color-dark-3);
           font-size: 0.8rem;
+        }
+
+        &--button {
         }
       }
     }

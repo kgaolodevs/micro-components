@@ -621,6 +621,16 @@ body {
   margin: 1rem;
 }
 
+.main .forms .form__1 .fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .main .forms .form__1--input {
   border-radius: 0.5rem;
   border: var(--color-dark) 0.4px solid;
@@ -634,7 +644,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 1rem;
+  margin: 0.3rem;
   padding: 0.3rem;
 }
 
