@@ -663,6 +663,7 @@ body {
   border: none;
   background-color: crimson;
   color: var(--color-light);
+  height: 1.5rem;
 }
 
 @-webkit-keyframes levitate {
