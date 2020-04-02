@@ -485,6 +485,10 @@
           background-color: crimson;
           color: var(--color-light);
           height: 1.5rem;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
     }
