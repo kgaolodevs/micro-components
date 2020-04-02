@@ -667,13 +667,13 @@ body {
   background-color: crimson;
   color: var(--color-light);
   height: 1.5rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .main .forms .form__1--button:hover {
   cursor: pointer;
   width: 7rem;
-  -webkit-transform: translateY(0.2rem);
-          transform: translateY(0.2rem);
 }
 
 @-webkit-keyframes levitate {
