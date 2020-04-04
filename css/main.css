@@ -707,6 +707,7 @@ body {
 
 .main .forms .form__2--img {
   width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background-color: var(--color-dark);
   margin: 0.8rem;
@@ -726,7 +727,6 @@ body {
 }
 
 .main .forms .form__2--input {
-  border-radius: 0.5rem;
   border: var(--color-dark) 0.4px solid;
 }
 

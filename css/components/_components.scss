@@ -510,6 +510,7 @@
         border-radius: 1.2rem;
         &--img {
           width: 5rem;
+          height: 5rem;
           border-radius: 50%;
           background-color: var(--color-dark);
           margin: 0.8rem;
@@ -522,7 +523,6 @@
         }
 
         &--input {
-          border-radius: 0.5rem;
           border: var(--color-dark) 0.4px solid;
         }
 
