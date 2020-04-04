@@ -594,9 +594,12 @@ body {
 }
 
 .main .forms {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .main .forms .form__1 {
