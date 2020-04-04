@@ -593,6 +593,12 @@ body {
   font-family: "Coolvetica", "Arial Narrow", Arial, sans-serif;
 }
 
+.main .forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main .forms .form__1 {
   width: 20rem;
   height: 23rem;
