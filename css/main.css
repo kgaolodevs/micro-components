@@ -726,10 +726,6 @@ body {
           align-items: center;
 }
 
-.main .forms .form__2--input {
-  border: var(--color-dark) 0.4px solid;
-}
-
 .main .forms .form__2--field {
   display: -webkit-box;
   display: -ms-flexbox;
