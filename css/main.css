@@ -759,8 +759,6 @@ body {
 .main .forms .form__2--button:hover {
   cursor: pointer;
   width: 7rem;
-  -webkit-box-shadow: 0rem 0.1rem 0.2rem var(--color-dark-3);
-          box-shadow: 0rem 0.1rem 0.2rem var(--color-dark-3);
 }
 
 @-webkit-keyframes levitate {
