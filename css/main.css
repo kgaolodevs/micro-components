@@ -702,7 +702,6 @@ body {
           flex-direction: column;
   padding: 1.5rem;
   background-color: var(--color-accent-2);
-  border-radius: 1.2rem;
 }
 
 .main .forms .form__2--img {
