@@ -777,7 +777,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 1.5rem;
-  background-color: var(--color-accent-2);
+  background-color: var(--color-primary);
 }
 
 .main .forms .form__3--img {
