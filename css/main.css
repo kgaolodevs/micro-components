@@ -807,7 +807,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0.3rem;
-  text-align: center;
 }
 
 .main .forms .form__3--text {
