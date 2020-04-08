@@ -801,6 +801,7 @@ body {
 
 .main .forms .form__3--input {
   border-radius: 1rem;
+  border: none;
 }
 
 .main .forms .form__3--field {
