@@ -830,7 +830,6 @@ body {
 
 .main .forms .form__3--button:hover {
   cursor: pointer;
-  width: 7rem;
 }
 
 @-webkit-keyframes levitate {
