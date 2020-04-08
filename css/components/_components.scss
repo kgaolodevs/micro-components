@@ -583,14 +583,13 @@
         }
 
         &--input {
-          // border: var(--color-dark) 0.4px solid;
+          border-radius: 1rem;
         }
 
         &--field {
           display: flex;
           flex-direction: column;
           padding: 0.3rem;
-          // text-align: center;
         }
 
         &--text {

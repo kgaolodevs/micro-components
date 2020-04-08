@@ -799,6 +799,10 @@ body {
           flex-direction: column;
 }
 
+.main .forms .form__3--input {
+  border-radius: 1rem;
+}
+
 .main .forms .form__3--field {
   display: -webkit-box;
   display: -ms-flexbox;
