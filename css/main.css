@@ -837,6 +837,8 @@ body {
 
 .main .forms .form__3--button:hover {
   cursor: pointer;
+  -webkit-transform: translateX(1.5rem);
+          transform: translateX(1.5rem);
 }
 
 @-webkit-keyframes levitate {
