@@ -827,7 +827,7 @@ body {
   margin: 0.4rem;
   width: 6rem;
   border: none;
-  background-color: var(--color-dark);
+  background-color: var(--color-accent-3);
   color: var(--color-light);
   height: 1.5rem;
   -webkit-transition: all 0.4s ease-in-out;
