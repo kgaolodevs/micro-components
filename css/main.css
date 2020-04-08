@@ -839,6 +839,8 @@ body {
   cursor: pointer;
   -webkit-transform: translateX(1.5rem);
           transform: translateX(1.5rem);
+  -webkit-box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
+          box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
 }
 
 @-webkit-keyframes levitate {
