@@ -779,6 +779,8 @@ body {
   padding: 1.5rem;
   background-color: var(--color-primary);
   border-radius: 3rem;
+  -webkit-box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
+          box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
 }
 
 .main .forms .form__3--img {
