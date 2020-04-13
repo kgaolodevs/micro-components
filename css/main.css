@@ -603,8 +603,6 @@ body {
 }
 
 .main .forms .form__1 {
-  width: 20rem;
-  height: 23rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -686,8 +684,6 @@ body {
 }
 
 .main .forms .form__2 {
-  width: 20rem;
-  height: 23rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -762,8 +758,6 @@ body {
 }
 
 .main .forms .form__3 {
-  width: 20rem;
-  height: 23rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
