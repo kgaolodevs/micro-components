@@ -614,6 +614,65 @@
           }
         }
       }
+      &__3 {
+        // outline: solid crimson 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 1.5rem;
+        background-color: var(--color-primary);
+        border-radius: 3rem;
+        box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
+        &--img {
+          width: 5rem;
+          height: 5rem;
+          border-radius: 10%;
+          background-color: var(--color-dark);
+          margin: 0.8rem;
+        }
+
+        .fields {
+          display: flex;
+          flex-direction: column;
+        }
+
+        &--input {
+          border-radius: 1rem;
+          border: none;
+        }
+
+        &--field {
+          display: flex;
+          flex-direction: column;
+          padding: 0.3rem;
+        }
+
+        &--text {
+          color: var(--color-dark-3);
+          font-size: 0.8rem;
+        }
+
+        &--button {
+          // stock style
+          align-self: center;
+          margin: 0.4rem;
+          width: 6rem;
+
+          border-radius: 0.5rem;
+          border: none;
+          background-color: var(--color-accent-3);
+          color: var(--color-dark);
+          height: 1.5rem;
+          transition: all 0.4s ease-in-out;
+
+          &:hover {
+            cursor: pointer;
+            transform: translateX(1.5rem);
+            box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
+          }
+        }
+      }
     }
   }
 

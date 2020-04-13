@@ -839,6 +839,88 @@ body {
           box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
 }
 
+.main .forms .form__3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5rem;
+  background-color: var(--color-primary);
+  border-radius: 3rem;
+  -webkit-box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
+          box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
+}
+
+.main .forms .form__3--img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10%;
+  background-color: var(--color-dark);
+  margin: 0.8rem;
+}
+
+.main .forms .form__3 .fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .forms .form__3--input {
+  border-radius: 1rem;
+  border: none;
+}
+
+.main .forms .form__3--field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.3rem;
+}
+
+.main .forms .form__3--text {
+  color: var(--color-dark-3);
+  font-size: 0.8rem;
+}
+
+.main .forms .form__3--button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 0.4rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--color-accent-3);
+  color: var(--color-dark);
+  height: 1.5rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.main .forms .form__3--button:hover {
+  cursor: pointer;
+  -webkit-transform: translateX(1.5rem);
+          transform: translateX(1.5rem);
+  -webkit-box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
+          box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
+}
+
 @-webkit-keyframes levitate {
   0% {
     -webkit-transform: translateY(0) scale(1);
