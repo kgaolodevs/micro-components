@@ -967,6 +967,7 @@ body {
 
 .main .forms .form__5--input {
   border: none;
+  border-radius: 5rem;
 }
 
 .main .forms .form__5--field {
