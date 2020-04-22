@@ -686,6 +686,9 @@
           border-radius: 60%;
           background-color: var(--color-dark);
           margin: 0.8rem;
+          &:hover {
+            cursor: pointer;
+          }
         }
 
         .fields {

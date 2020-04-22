@@ -951,6 +951,10 @@ body {
   margin: 0.8rem;
 }
 
+.main .forms .form__5--img:hover {
+  cursor: pointer;
+}
+
 .main .forms .form__5 .fields {
   display: -webkit-box;
   display: -ms-flexbox;
