@@ -1003,7 +1003,7 @@ body {
   height: 1.5rem;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  border-radius: 0.8rem;
+  border-radius: 0.7rem;
 }
 
 .main .forms .form__5--button:hover {
