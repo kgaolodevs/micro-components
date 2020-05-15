@@ -1010,8 +1010,8 @@ body {
   cursor: pointer;
   -webkit-transform: translateX(1.4rem);
           transform: translateX(1.4rem);
-  -webkit-box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
-          box-shadow: -0.2rem 0rem 0.5rem var(--color-dark-3);
+  -webkit-box-shadow: -0.3rem 0rem 0.5rem var(--color-dark-3);
+          box-shadow: -0.3rem 0rem 0.5rem var(--color-dark-3);
 }
 
 @-webkit-keyframes levitate {
