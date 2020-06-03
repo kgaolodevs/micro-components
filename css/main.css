@@ -947,7 +947,7 @@ body {
 .main .forms .form__5--img {
   width: 5rem;
   height: 5rem;
-  border-radius: 58%;
+  border-radius: 60%;
   background-color: var(--color-dark);
   margin: 0.8rem;
 }
