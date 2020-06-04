@@ -856,7 +856,7 @@ body {
   background-color: var(--color-secondary);
   -webkit-box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
           box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
-  border-radius: 1rem;
+  border-radius: 0.9rem;
 }
 
 .main .forms .form__4--img {
