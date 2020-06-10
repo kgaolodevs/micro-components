@@ -770,9 +770,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 1.5rem;
+  padding: 1.3rem;
   background-color: var(--color-primary);
-  border-radius: 3rem;
+  border-radius: 2.5rem;
   -webkit-box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
           box-shadow: 0rem 0.5rem 0.2rem var(--color-dark-3);
 }
@@ -1058,7 +1058,7 @@ body {
 
 @-webkit-keyframes morph {
   0% {
-    border-radius: 50rem;
+    border-radius: 45rem;
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
@@ -1084,7 +1084,7 @@ body {
 
 @keyframes morph {
   0% {
-    border-radius: 50rem;
+    border-radius: 45rem;
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
